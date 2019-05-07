@@ -1,0 +1,430 @@
+@font-face {
+  font-family: 'proxima_novabold';
+  src: url("../fonts/proximanova-bold-webfont.eot");
+  src: url("../fonts/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-bold-webfont.woff2") format("woff2"), url("../fonts/proximanova-bold-webfont.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/proximanova-bold-webfont.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_extrabld';
+  src: url("../fonts/ProximaNova-Extrabld.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_semibold';
+  src: url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_regular';
+  src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/****************HEADER*****************/
+/*.wrapper {
+  background-color: $cfon5;
+}*/
+/*body {
+  overflow: hidden;
+}*/
+.header {
+  max-width: 1126px;
+  height: 72px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.header-logo {
+  display: block;
+  float: left;
+  max-width: 184px;
+  margin: 19px 22.81% 19px 0;
+}
+
+.header-menu {
+  display: block;
+  float: left;
+  min-width: 435px;
+  height: 67px;
+}
+
+.header-menu-item {
+  display: block;
+  height: 56px;
+  float: left;
+  padding-top: 18px;
+  text-decoration: none;
+  margin: 0 2%;
+  font: 600 16px  'proxima_regular', sans-serif;
+  color: #222B3A;
+}
+
+.header-menu-item:first-child {
+  border-bottom: 2px solid #FC880D;
+}
+
+.header-authent {
+  display: block;
+  margin-left: 4.3%;
+}
+
+.header-authent img {
+  max-width: 12px;
+  float: left;
+  margin-top: 1.2em;
+}
+
+.clear {
+  clear: both;
+}
+
+/************BANNER**************/
+.banner {
+  height: 513px;
+  background-color: #296DCE;
+  overflow: hidden;
+  /*position: absolute;
+  top: 72px;
+  z-index: 2;*/
+}
+
+.banner-extraleyer1 {
+  width: 140.63%;
+  height: 462px;
+  transform: rotate(-21deg);
+  background-color: rgba(255, 255, 255, 0.07);
+  position: absolute;
+  top: 634px;
+  left: -93%;
+}
+
+.banner-extraleyer2 {
+  width: 96.34%;
+  height: 310px;
+  transform: rotate(13.96deg);
+  background-color: rgba(255, 255, 255, 0.07);
+  position: absolute;
+  top: -117px;
+  left: 7.9%;
+}
+
+.banner-photo {
+  position: absolute;
+  z-index: 4;
+  top: 110px;
+  left: 55%;
+}
+
+.banner-sitename {
+  width: 58.88%;
+  height: 184px;
+  /*position: absolute;*/
+  z-index: 5;
+  margin: 90px 0 19px 7%;
+}
+
+.banner-sitename h1 {
+  color: #FFFFFF;
+  font: 600 38px  Intro, sans-serif;
+  line-height: 53px;
+  text-align: left;
+}
+
+.banner-sitename h1 span {
+  color: #FC880D;
+  font: 600 24px  Intro, sans-serif;
+  line-height: 31px;
+}
+
+.banner-more-info {
+  width: 209px;
+  height: 44px;
+  border: 1px solid #FFFFFF;
+}
+
+.banner-more-info a {
+  display: block;
+  padding: 2.4em auto;
+  text-align: center;
+  font: 400 16px  'proxima_regular', sans-serif;
+  line-height: 2.4em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.baner-indicator {
+  width: 29.25%;
+  height: 45px;
+  margin: 72px 0 0 7%;
+}
+
+.banner-indicator-lightbox {
+  width: 100%;
+  height: 15px;
+  border: 2px solid #F3F3F3;
+  border-radius: 3px;
+}
+
+.banner-indicator-lightbox-done {
+  width: 45.3%;
+  float: right;
+  height: 17px;
+  border-radius: 0 3px 3px 0;
+  background-color: #F3F3F3;
+}
+
+.banner-indicator-text {
+  width: 29.25%;
+  height: 45px;
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.banner-indicator-all-number {
+  text-align: left;
+  font: 600 38px  'proxima_regular', sans-serif;
+  line-height: 1.1em;
+  color: #F3F3F3;
+  padding-right: 9px;
+}
+
+.banner-indicator-all-text {
+  text-align: left;
+  font: 400 14px  'proxima_regular', sans-serif;
+  line-height: 1.1em;
+  color: #F3F3F3;
+  padding-right: 100%;
+  padding-top: 5px;
+}
+
+.banner-indicator-done-number {
+  text-align: left;
+  font: 600 38px  'proxima_regular', sans-serif;
+  line-height: 1.1em;
+  color: #F3F3F3;
+  padding-right: 9px;
+}
+
+.banner-indicator-done-text {
+  font: 400 14px  'proxima_regular', sans-serif;
+  line-height: 1.1em;
+  color: #F3F3F3;
+  padding-top: 5px;
+}
+
+/**************CONTENT*************/
+/*************bredcrumbles*********/
+.bredcrumbles {
+  margin-top: 14px;
+  margin-left: 7.5%;
+  width: 24%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font: 600 16px  'proxima_regular', sans-serif;
+  color: #979FAD;
+}
+
+.bredcrumbles a {
+  text-decoration: none;
+  color: #979FAD;
+}
+
+.bredcrumbles-list {
+  color: #323232;
+}
+
+.bredcrumbles-list a {
+  color: #323232;
+}
+
+.bredcrumbles2 {
+  height: 99px;
+  padding: 0 7.5%;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.bredcrumbles-coursestheme {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font: 600 18px  'proxima_regular', sans-serif;
+  color: #222B3A;
+}
+
+.bredcrumbles-coursestheme-text {
+  width: 110px;
+}
+
+.bredcrumbles-coursestheme-age {
+  width: 227px;
+  height: 14px;
+  border: 2px solid #FF8A00;
+  text-align: left;
+  padding: 15px 20px 20px 5px;
+  border-radius: 3px;
+  font: 600 14px  'proxima_regular', sans-serif;
+  color: #FF8A00;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bredcrumbles-coursestheme-age-choice {
+  width: 80%;
+}
+
+.bredcrumbles-coursestheme-age-arrow {
+  width: 0;
+  height: 0;
+  float: right;
+  border: 9px solid transparent;
+  border-top: 9px solid #FF8A00;
+  margin-top: 5px;
+}
+
+/************************articles***********************/
+.article {
+  height: 203px;
+  margin: 19px 7.5% 0 7.5%;
+  background-color: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+}
+
+.article-first {
+  margin-top: 53px;
+}
+
+.article-number {
+  width: 80px;
+  height: 203px;
+  font: 600 64px  'proxima_regular', sans-serif;
+  color: #E1E1E1;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+.article-content {
+  margin: 0 17% 0 18px;
+}
+
+.article-header {
+  font: 600 24px  'proxima_regular', sans-serif;
+  color: #1092CB;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.article-age {
+  font: 400 16px  'proxima_regular', sans-serif;
+  color: #979FAD;
+  margin-bottom: 5px;
+}
+
+.article-citate {
+  font: 400 16px  'proxima_regular', sans-serif;
+  line-height: 1.7em;
+  color: #696969;
+}
+
+.article-availabledate {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.article-availabledate-text {
+  font: 400 16px  'proxima_regular', sans-serif;
+  color: #696969;
+  margin-right: 10px;
+}
+
+.article-availabledate-date {
+  font: 400 16px  'proxima_regular', sans-serif;
+  color: #FF8A00;
+}
+
+.article-indicator {
+  width: 9px;
+  height: 121px;
+  float: right;
+  margin: -150px 3.8% 0 1%;
+}
+
+.article-indicator-text {
+  font: 600 14px  'proxima_regular', sans-serif;
+  color: #323232;
+}
+
+.article-indicator-lightbox {
+  width: 9px;
+  height: 121px;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #F3F3F3;
+  margin-left: 5px;
+}
+
+.article-indicator-lightbox-done {
+  width: 8px;
+  height: 87px;
+  margin-top: 34px;
+  border-radius: 0 3px 3px 0;
+  background-image: linear-gradient(90deg, #0099DD 0%, #178EC2 100%);
+}
+
+/*************FOOTER MENU**************/
+.footermenu {
+  height: 350px;
+  margin-top: 76px;
+  background-color: #0099DD;
+  padding-top: 37px;
+}
+
+.footermenu-blocks {
+  margin: 0 7.5% 0 7.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footermenu-block-header {
+  font: 600 24px  'proxima_regular', sans-serif;
+  color: #FFFFFF;
+}
+
+.footermenu-block-underline {
+  font: 600 20px  'proxima_regular', sans-serif;
+  color: #FFFFFF;
+}
+
+.footermenu-block-menu ul li {
+  list-style: none;
+  font: 400 16px  'proxima_regular', sans-serif;
+  color: #FFFFFF;
+  line-height: 1.6;
+  margin-left: -40px;
+}
+
+.footermenu-block-menu ul li a {
+  text-decoration: none;
+  font: 400 16px  'proxima_regular', sans-serif;
+  color: #FFFFFF;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=style.css.map */
