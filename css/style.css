@@ -104,6 +104,7 @@
   position: relative;
   top: -147px;
   left: 7.9%;
+  overflow: hidden;
 }
 
 .banner-photo {
@@ -224,22 +225,27 @@
   align-items: flex-start;
   font: 600 16px  'proxima_regular', sans-serif;
   color: #979FAD;
+  z-index: 3;
 }
 
 .bredcrumbles a {
   text-decoration: none;
   color: #979FAD;
+  z-index: 3;
 }
 
 .bredcrumbles-list {
   color: #323232;
+  z-index: 3;
 }
 
 .bredcrumbles-list a {
   color: #323232;
+  z-index: 3;
 }
 
 .bredcrumbles2 {
+  z-index: 3;
   height: 99px;
   padding: 0 7.5%;
   background-color: #FAFAFA;

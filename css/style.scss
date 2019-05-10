@@ -112,7 +112,7 @@
       position: relative;
       top: -147px;
       left: 7.9%;
-
+      overflow: hidden;
     }
 
     .banner-photo {
@@ -237,21 +237,25 @@
   align-items: flex-start;
   font: 600 16px  'proxima_regular', sans-serif;
   color: $cfont6;
+  z-index: 3;
 
 }
     .bredcrumbles a {
       text-decoration: none;
       color: $cfont6;
+      z-index: 3;
     }
 
 .bredcrumbles-list {
    color: $cfont7;
+  z-index: 3;
  }
     .bredcrumbles-list a{
       color: $cfont7;
+      z-index: 3;
     }
 .bredcrumbles2 {
-
+  z-index: 3;
   height: 99px;
   padding: 0 7.5%;
   background-color: $cfon7;
@@ -267,6 +271,7 @@
     align-items: flex-start;
     font: 600 18px  'proxima_regular', sans-serif;
     color: $cfont5;
+
   }
     .bredcrumbles-coursestheme-text {
       width: 110px;

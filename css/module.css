@@ -964,4 +964,16 @@
   background-color: #FFFFFF;
 }
 
+.control-item1-text2 {
+  grid-column-start: 5;
+  grid-column-end: 20;
+  grid-row-start: 28;
+  grid-row-end: 29;
+  font: 600 1.5vw  'proxima_regular', sans-serif;
+  color: #323232;
+  line-height: 1.2;
+  z-index: 4;
+  padding: 1.5vw 0;
+}
+
 /*# sourceMappingURL=module.css.map */
