@@ -34,7 +34,8 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(32, 1fr);
-  grid-template-rows: 72px 8vw 5vw 8.6vw 2.75vw 1.2vw 5.4vw 2.9vw 2.8vw 3vw 9vw 5vw 5vw 8vw 5vw 9vw repeat(5, 11.625vw) 9vw repeat(3, 11.625vw);
+  grid-template-rows: 72px 8vw 5vw 8.6vw 2.75vw 1.2vw 5.4vw 2.9vw 2.8vw 3vw /*breadcrumbles*/9vw 5vw 5vw 8vw 5vw 9vw repeat(5, 11.625vw) 9vw repeat(3, 11.625vw) 9vw
+  /*control block*/5.25vw 5vw;
   grid-auto-rows: 3fr;
 }
 
@@ -546,6 +547,7 @@
   color: $cfont7;
   line-height: 1;
   padding-top: 3vw;
+  z-index: 1;
 }
 
 .workout-theme {
@@ -560,6 +562,7 @@
   line-height: 1;
   margin-left: -0.5vw;
   padding-top: 3vw;
+  z-index: 1;
 }
 .workout-line {
   grid-column-start: 9;
@@ -569,6 +572,7 @@
   text-align: left;
   line-height: 1;
   padding-top: 3vw;
+  z-index: 1;
 }
 .workout-arrow {
   grid-column-start: 29;
@@ -578,9 +582,18 @@
   text-align: left;
   line-height: 1;
   padding-top: 3vw;
+  z-index: 1;
 }
 
-
+/****************************worcout background***********************/
+.workout-background {
+  grid-column-start: 1;
+  grid-column-end: 33;
+  grid-row-start: 16;
+  grid-row-end: 22;
+  z-index: 0;
+  background-color: $cfon7;
+}
 
 /*********************************workout items**********************/
 .workout-item1 {
@@ -722,7 +735,7 @@
   box-sizing: border-box;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.03);
   border-radius: 3px;
-
+  margin-bottom: 10px;
 }
 
 /*********************************workout item3**********************/
@@ -736,7 +749,7 @@
   box-sizing: border-box;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.03);
   border-radius: 3px;
-
+  margin-bottom: 10px;
 }
 
 /*********************************workout item4**********************/
@@ -750,7 +763,7 @@
   box-sizing: border-box;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.03);
   border-radius: 3px;
-
+  margin-bottom: 10px;
 }
 
 /*********************************workout item5**********************/
@@ -852,3 +865,106 @@
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.03);
   border-radius: 3px;
 }
+
+/*********************************CONTROL POINTS**********************/
+.control-haighthen {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 26;
+  grid-row-end: 27;
+  text-align: left;
+  font: 700 16px  'proxima_regular', sans-serif;
+  text-decoration: none;
+  color: $cfont7;
+  line-height: 1;
+  padding-top: 3vw;
+  z-index: 2;
+}
+
+  .control-theme {
+    grid-column-start: 5;
+    grid-column-end: 15;
+    grid-row-start: 26;
+    grid-row-end: 27;
+    text-align: left;
+    font: 600 2vw  'proxima_regular', sans-serif;
+    text-decoration: none;
+    color: $cfont7;
+    line-height: 1;
+    margin-left: -0.5vw;
+    padding-top: 3vw;
+    z-index: 2;
+  }
+  .control-line {
+    grid-column-start: 9;
+    grid-column-end: 25;
+    grid-row-start: 26;
+    grid-row-end: 27;
+    text-align: left;
+    line-height: 1;
+    padding-top: 3vw;
+    z-index: 2;
+  }
+  .control-arrow {
+    grid-column-start: 29;
+    grid-column-end: 31;
+    grid-row-start: 26;
+    grid-row-end: 27;
+    text-align: left;
+    line-height: 1;
+    padding-top: 3vw;
+    z-index: 2;
+  }
+
+.control-background {
+  grid-column-start: 1;
+  grid-column-end: 33;
+  grid-row-start: 26;
+  grid-row-end: 29;
+  background-color: $cfon7;
+  z-index: 1;
+}
+
+
+
+.control-item-header {
+  grid-column-start: 4;
+  grid-column-end: 15;
+  grid-row-start: 27;
+  grid-row-end: 28;
+  text-align: left;
+  font: 600 24px  'proxima_regular', sans-serif;
+  text-decoration: none;
+  color: $font10;
+}
+
+
+
+  .control-item1-text1 {
+    grid-column-start: 5;
+    grid-column-end: 20;
+    grid-row-start: 28;
+    grid-row-end: 29;
+    font: 600 1.5vw  'proxima_regular', sans-serif;
+    color: $cfont7;
+    line-height: 1.2;
+    z-index: 4;
+    padding: 1.5vw 0;
+  }
+    .control-item1-checkbox {
+      grid-column-start: 28;
+      grid-column-end: 29;
+      grid-row-start: 28;
+      grid-row-end: 29;
+      z-index: 4;
+      padding: 1vw 0;
+    }
+    .control-item1-background {
+      grid-column-start: 5;
+      grid-column-end: 29;
+      grid-row-start: 28;
+      grid-row-end: 29;
+      z-index: 3;
+      background-color: $cfont4;
+
+    }
