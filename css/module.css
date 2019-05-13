@@ -361,7 +361,7 @@ a {
   color: #323232;
   line-height: 1.2;
   text-align: left;
-  padding: 0.8em 0.5em;
+  padding: 0.8em 0.4em;
 }
 
 .module_turgets_checkbox_block {
@@ -381,7 +381,7 @@ label span {
   position: relative;
   background-color: #E1E1E1;
   border-radius: 1px;
-  margin: 3px;
+  margin: 3px 2px;
 }
 
 .module-turgets-checkbox [type=checkbox]:checked + span:before {
@@ -409,7 +409,7 @@ label span {
   width: 60px;
   position: relative;
   top: -50px;
-  right: 10%;
+  right: 1vw;
 }
 
 .moduleicone-button {
@@ -550,7 +550,7 @@ label span {
 .workout-item-2ndline {
   position: relative;
   top: -5vw;
-  left: 10vw;
+  left: 9vw;
   font: 600 1.5vw  'proxima_regular', sans-serif;
   color: #222B3A;
   display: flex;
@@ -558,7 +558,7 @@ label span {
 }
 
 .workout-item-2ndline-txt {
-  padding-right: 22%;
+  padding-right: 12%;
 }
 
 .workout-item-2ndline-img {
