@@ -1,0 +1,6 @@
+[0504/192005.005:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
+[0504/192017.487:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
+[0504/192036.508:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
+[0505/142541.101:ERROR:registration_protocol_win.cc(56)] CreateFile: Не удается найти указанный файл. (0x2)
+[0505/154156.676:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL-адрес не использует поддерживаемый протокол  (0x2ee6)
+[0507/045436.149:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL-адрес не использует поддерживаемый протокол  (0x2ee6)
