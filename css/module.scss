@@ -152,7 +152,7 @@ a  {
     width: 35%;
     height: 45px;
     position: relative;
-    top: 6vw;
+    top: 3vw;
   }
     .banner-indicator-lightbox {
       width: 100%;
@@ -206,7 +206,7 @@ a  {
       }
 .banner-actualthemename {
   width: 29%;
-  top: 9vw;
+  top: 6vw;
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -269,10 +269,7 @@ a  {
 }
 /**************CONTENT*************/
 /***********module target**********/
-.readcrumbs-haighthen2 {
-  margin-top: 3em;
-  line-height: 1.9em;
-  }
+
 .breadcrumbs2-theme {
   text-align: left;
   font: 600 1.9em  'proxima_regular', sans-serif;
@@ -298,6 +295,7 @@ a  {
 .targets-container {
   max-width: 1100px;
   margin: 0 auto;
+
   }
 .target {
   border-bottom: 1px solid $cfon5;
@@ -373,3 +371,260 @@ a  {
       background-color:$cfon3;
       border: 1px solid $cfon3;
     }
+
+/**************************moduleicons***********************/
+.targets_buttons_container {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: flex-start;*/
+}
+.moduleicone1 {
+  width: 60px;
+  position: relative;
+  top: -50px;
+  right: 10%;
+
+}
+  .moduleicone-button {
+     display: flex;
+      justify-content: center;
+    align-items: center;
+     width: 56px;
+     height: 56px;
+     margin-bottom: 7px;
+     background: $cfont4;
+     border: 1px solid $cfon12;
+     box-sizing: border-box;
+     box-shadow: 4px 4px 15px $cfon8;
+     border-radius: 3px;
+   }
+    .moduleicone-button:first-child {
+      background: $cfon3;
+    }
+    .moduleicone-button img {
+      display: block;
+    }
+/*****************checklist***********/
+
+.checklist-background {
+  z-index: 0;
+  background-color: $cfon7;
+}
+
+
+.checklist-container {
+  max-width: 1100px;
+  margin: -80px auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.breadcrumbs2-theme {
+  text-align: left;
+  font: 600 1.9em  'proxima_regular', sans-serif;
+  text-decoration: none;
+  color: $cfont7;
+  line-height: 1;
+  padding-top: 0.9em;
+  margin-left: 5px;
+
+}
+.breadcrumbs2-line {
+  text-align: left;
+  line-height: 1;
+  padding-top: 1.9em;
+}
+.breadcrumbs2-arrow {
+  text-align: left;
+  line-height: 1;
+  padding-top: 2em;
+}
+
+.workout-cointainer {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/**************workout items*****************/
+.workout-item1 {
+  background: #FFFFFF;
+  border: 1.5px solid $cfon10;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+  .workout-item-number {
+    position: relative;
+    width: 2vw;
+    height: 1.8vw;
+    text-align: center;
+    padding-top: 0.5vw;
+    font: 600 1vw  'proxima_regular', sans-serif;
+    background-color: $cfon10;
+    color: $cfont4;
+    line-height: 1;
+    z-index: 3;
+  }
+  .workout-item-icon {
+    position: relative;
+    width: 4.81vw;
+    height: 4.81vw;
+    text-align: center;
+    padding: 1.375vw 0 0 1.575vw;
+    font: 600 1vw  'proxima_regular', sans-serif;
+    color: $cfont4;
+    line-height: 1;
+    z-index: 3;
+  }
+    .workout-item-1stline {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+          }
+      .workout-item-1stline-kindimg {
+        position: relative;
+        top: -7vw;
+        left: 10vw;
+        padding-right: 6px;
+       }
+          .workout-item-1stline-glases-kindtxt {
+            position: relative;
+            top: -7vw;
+            left: 10vw;
+            padding-right: 18px;
+            font: 600 1vw  'proxima_regular', sans-serif;
+            color: $cfont6;
+          }
+          .workout-item-1stline-timeimg {
+            position: relative;
+            top: -7vw;
+            left: 10vw;
+            padding-right: 6px;
+          }
+          .workout-item-1stline-timetxt {
+            position: relative;
+            top: -7vw;
+            left: 10vw;
+            padding-right: 8px;
+            font: 600 1vw  'proxima_regular', sans-serif;
+            color: $cfont6;
+          }
+  .workout-item-2ndline {
+    position: relative;
+    top: -5vw;
+    left: 10vw;
+    font: 600 1.5vw  'proxima_regular', sans-serif;
+    color: $cfont5;
+    display: flex;
+    justify-content: flex-start;
+}
+    .workout-item-2ndline-txt {
+      padding-right: 22%;
+    }
+    .workout-item-2ndline-img {
+      width: 53px;
+      height: 29px;
+      border-radius: 14.5px;
+      background-color: $cfon13;
+    }
+      .workout-item-2ndline-img_radio {
+        width: 21px;
+        height: 21px;
+        background: $cfont4;
+        border-radius: 50%;
+        box-shadow: 0px 2px 2px $cfon14, 0px 0px 2px $cfon15;
+        position: absolute;
+        top: 2px;
+      }
+  .workout-item-3rdline {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+  }
+    .workout-item-3rdline-viewimg {
+      position: relative;
+      top: -3.5vw;
+      left: 10vw;
+      padding-right: 6px;
+        }
+    .workout-item-3rdline-viewtxt {
+      position: relative;
+      top: -3.5vw;
+      left: 10vw;
+      padding-right: 18px;
+      font: 600 1vw  'proxima_regular', sans-serif;
+      color: $cfon10;
+    }
+        .workout-item-3rdline-viewtxt a {
+          font: 600 1vw  'proxima_regular', sans-serif;
+          color: $cfon10;
+        }
+    .workout-item-3rdline-remindimg {
+      position: relative;
+      top: -3.5vw;
+      left: 10vw;
+      padding-right: 6px;
+    }
+      .workout-item-3rdline-remindtxt {
+         position: relative;
+         top: -3.5vw;
+         left: 10vw;
+         padding-right: 8px;
+         font: 600 1vw  'proxima_regular', sans-serif;
+         color: $cfont9;
+       }
+          .workout-item-3rdline-remindtxt a {
+            font: 600 1vw  'proxima_regular', sans-serif;
+            color: $cfont9;
+          }
+
+/*************FOOTER MENU**************/
+.footermenu {
+  margin-top: 76px;
+  background-color: $cfon3;
+  padding: 2.5em 0;
+}
+.footermenu-blocks {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footermenu-block {
+  margin-right: 10px;
+}
+.footermenu-block-header{
+  font: 600 24px  'proxima_regular', sans-serif;
+  color: $cfont4;
+}
+.footermenu-block-underline {
+  font: 600 20px  'proxima_regular', sans-serif;
+  color: $cfont4;
+}
+.footermenu-block-menu ul li {
+  list-style: none;
+  font: 400 16px  'proxima_regular', sans-serif;
+  color: $cfont4;
+  line-height: 1.6;
+  margin-left: -45px;
+  padding: 5px;
+}
+.footermenu-block-menu ul li:hover {
+  transform: translate(5px, 0);
+}
+.footermenu-block-menu ul li a {
+  text-decoration: none;
+  font: 400 16px  'proxima_regular', sans-serif;
+  color: $cfont4;
+  line-height: 1.6;
+}
+
+/*footer*/
+.footer {
+  display: block;
+  width: 100%;
+  height: 47px;
+  background-color: $cfont5;
+}
+
+
+
