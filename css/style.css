@@ -95,6 +95,10 @@ a {
   color: #222B3A;
 }
 
+.header_mobile_menu {
+  display: none;
+}
+
 /************BANNER**************/
 .banner {
   height: 513px;
@@ -494,6 +498,91 @@ a {
   width: 100%;
   height: 47px;
   background-color: #222B3A;
+}
+
+@media screen and (max-width: 375px) {
+  .header_mobile_menu {
+    display: block;
+    font-size: 32px;
+    padding: 12px;
+    margin-right: 8px;
+  }
+
+  .header_mobile_menu a {
+    color: #222B3A;
+  }
+
+  .header-authent {
+    display: none;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .banner-photo {
+    display: none;
+  }
+
+  .banner-more-info {
+    cursor: pointer;
+  }
+
+  .banner-indicator-done-text {
+    width: 100%;
+  }
+
+  .banner-sitename {
+    font-size: 16px;
+    line-height: 12px;
+  }
+
+  .banner-sitename span {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .banner-indicator {
+    width: 100%;
+  }
+
+  .banner-indicator-lightbox {
+    width: 100%;
+  }
+
+  .banner-indicator-done-text {
+    width: 100%;
+  }
+
+  .breadcrumbs-container {
+    width: 100%;
+    padding-right: 5px;
+  }
+
+  .breadcrumbs-coursestheme {
+    width: 100%;
+    padding-right: 5px;
+  }
+
+  .breadcrumbs-coursestheme-age {
+    width: 100%;
+    float: left;
+    padding-right: 5px;
+    /*height: 2.8em;*/
+  }
+
+  .breadcrumbs2-container {
+    display: block;
+  }
+
+  .footermenu-block {
+    display: none;
+  }
+
+  .footermenu-block-contacts {
+    display: block;
+    padding-left: 5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
