@@ -557,11 +557,14 @@ a {
   .breadcrumbs-container {
     width: 100%;
     padding-right: 5px;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .breadcrumbs-coursestheme {
     width: 100%;
     padding-right: 5px;
+    margin-right: 5px;
   }
 
   .breadcrumbs-coursestheme-age {
@@ -573,6 +576,11 @@ a {
 
   .breadcrumbs2-container {
     display: block;
+
+  }
+  .breadcrumbs-coursestheme {
+    display: flex;
+    justify-content: flex-start;
   }
 
   .footermenu-block {
